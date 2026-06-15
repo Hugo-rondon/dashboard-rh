@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08243d">
+  <title>Dashboard RH | Consórcio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="shell hero-content">
+      <img class="brand-logo" src="logo.png" alt="Logo do consórcio">
+      <div>
+        <p class="eyebrow">Gestão integrada de pessoas e custos</p>
+        <h1>Dashboard RH</h1>
+        <p class="hero-subtitle">Quadro de pessoal, histórico financeiro e mão de obra terceirizada</p>
+      </div>
+      <div class="update-box"><span>Base atualizada</span><strong id="updatedAt">--</strong></div>
+    </div>
+  </header>
+
+  <nav class="section-nav">
+    <div class="shell nav-links">
+      <a href="#quadro">Quadro de pessoal</a>
+      <a href="#custos">Custos</a>
+      <a href="#terceiros">Terceiros</a>
+    </div>
+  </nav>
+
+  <main class="shell">
+    <section id="quadro" class="dashboard-section">
+      <div class="section-heading">
+        <div><p class="eyebrow dark">Visão geral</p><h2>Quadro de pessoal por lote</h2></div>
+        <label class="filter-control">Situação
+          <select id="statusFilter"><option value="active">Ativos</option><option value="inactive">Inativos</option><option value="all">Todos</option></select>
+        </label>
+      </div>
+      <div class="summary-grid three">
+        <article class="metric-card navy"><span>Total nos 6 lotes</span><strong id="workforceTotal">0</strong><small id="workforceLabel">Funcionários ativos</small></article>
+        <article class="metric-card green"><span>Ativos</span><strong id="activeTotal">0</strong><small>Registros sem demissão</small></article>
+        <article class="metric-card red"><span>Inativos</span><strong id="inactiveTotal">0</strong><small>Registros com desligamento</small></article>
+      </div>
+      <div id="lotCards" class="lot-grid"></div>
+    </section>
+
+    <section id="custos" class="dashboard-section">
+      <div class="section-heading">
+        <div><p class="eyebrow dark">Histórico</p><h2>Custos por competência e lote</h2></div>
+        <div class="filters-inline">
+          <label class="filter-control">Mês<select id="monthFilter"></select></label>
+          <label class="filter-control">Lote<select id="financeLotFilter"></select></label>
+        </div>
+      </div>
+      <div class="summary-grid five">
+        <article class="metric-card teal"><span>Salários</span><strong id="salaryMetric">R$ 0</strong></article>
+        <article class="metric-card red"><span>Horas extras</span><strong id="overtimeMetric">R$ 0</strong></article>
+        <article class="metric-card amber"><span>DSR</span><strong id="dsrMetric">R$ 0</strong></article>
+        <article class="metric-card blue"><span>Custo do mês</span><strong id="monthTotalMetric">R$ 0</strong></article>
+        <article class="metric-card navy"><span>Acumulado</span><strong id="accumulatedMetric">R$ 0</strong></article>
+      </div>
+      <div class="panel-grid">
+        <article class="panel span-two"><div class="panel-title"><h3>Evolução do custo total</h3><span id="chartCaption"></span></div><div id="financeChart" class="chart" aria-label="Gráfico de evolução financeira"></div></article>
+        <article class="panel"><div class="panel-title"><h3>Composição por lote</h3><span id="tableCaption"></span></div><div class="table-wrap"><table><thead><tr><th>Lote</th><th>Salários</th><th>Extras</th><th>DSR</th><th>Total</th></tr></thead><tbody id="financeTable"></tbody></table></div></article>
+      </div>
+    </section>
+
+    <section id="terceiros" class="dashboard-section">
+      <div class="section-heading">
+        <div><p class="eyebrow dark">Mão de obra</p><h2>Empreiteiros e Select</h2></div>
+        <label class="filter-control">Lote<select id="thirdPartyLotFilter"></select></label>
+      </div>
+      <div class="third-party-grid">
+        <article class="panel accent-purple">
+          <div class="panel-title"><div><p class="eyebrow dark">Empreiteiros</p><h3>Resumo do filtro</h3></div></div>
+          <div class="mini-metrics"><div><span>Pessoas</span><strong id="contractorPeople">0</strong></div><div><span>Empresas</span><strong id="contractorCompanies">0</strong></div><div><span>Custo</span><strong id="contractorCost">R$ 0</strong></div></div>
+          <div id="contractorBars" class="bar-list"></div>
+        </article>
+        <article class="panel accent-orange">
+          <div class="panel-title"><div><p class="eyebrow dark">Select</p><h3>Resumo do filtro</h3></div></div>
+          <div class="mini-metrics two"><div><span>Pessoas</span><strong id="selectPeople">0</strong></div><div><span>Custo</span><strong id="selectCost">R$ 0</strong></div></div>
+          <div id="selectBars" class="bar-list"></div>
+        </article>
+      </div>
+      <article class="panel company-panel"><div class="panel-title"><h3>Empreiteiras no lote selecionado</h3><span id="companyCaption"></span></div><div id="companyList" class="company-list"></div></article>
+    </section>
+  </main>
+
+  <footer><div class="shell">Dashboard com informações consolidadas. Nenhum nome ou matrícula é publicado.</div></footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
