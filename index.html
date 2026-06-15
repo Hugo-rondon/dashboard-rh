@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#08243d">
   <title>Dashboard RH | Consórcio</title>
-  <link rel="stylesheet" href="styles.css?v=20260615-turnover3">
+  <link rel="stylesheet" href="styles.css?v=20260615-separado1">
 </head>
 <body>
   <header class="hero">
@@ -14,7 +14,7 @@
       <div>
         <p class="eyebrow">Gestão integrada de pessoas e custos</p>
         <h1>Dashboard RH</h1>
-        <p class="hero-subtitle">Quadro de pessoal, histórico financeiro e mão de obra terceirizada</p>
+        <p class="hero-subtitle">Quadro de pessoal, custos, turnover e mão de obra terceirizada</p>
       </div>
       <div class="update-box"><span>Base atualizada</span><strong id="updatedAt">--</strong></div>
     </div>
@@ -24,6 +24,7 @@
     <div class="shell nav-links">
       <a href="#quadro">Quadro de pessoal</a>
       <a href="#custos">Custos</a>
+      <a href="#turnover">Turnover</a>
       <a href="#terceiros">Terceiros</a>
     </div>
   </nav>
@@ -46,7 +47,7 @@
 
     <section id="custos" class="dashboard-section">
       <div class="section-heading">
-        <div><p class="eyebrow dark">Histórico</p><h2>Custos por competência e lote</h2></div>
+        <div><p class="eyebrow dark">Histórico financeiro</p><h2>Custos por competência e lote</h2></div>
         <div class="filters-inline">
           <label class="filter-control">Mês<select id="monthFilter"></select></label>
           <label class="filter-control">Lote<select id="financeLotFilter"></select></label>
@@ -59,18 +60,28 @@
         <article class="metric-card blue"><span>Custo do mês</span><strong id="monthTotalMetric">R$ 0</strong></article>
         <article class="metric-card navy"><span>Acumulado</span><strong id="accumulatedMetric">R$ 0</strong></article>
       </div>
+      <div class="panel-grid">
+        <article class="panel span-two"><div class="panel-title"><h3>Evolução do custo total</h3><span id="chartCaption"></span></div><div id="financeChart" class="chart" aria-label="Gráfico de evolução financeira"></div></article>
+        <article class="panel"><div class="panel-title"><h3>Custos por lote</h3><span id="tableCaption"></span></div><div class="table-wrap"><table><thead><tr><th>Lote</th><th>Salários</th><th>Extras</th><th>DSR</th><th>Total</th></tr></thead><tbody id="financeTable"></tbody></table></div></article>
+      </div>
+    </section>
+
+    <section id="turnover" class="dashboard-section">
+      <div class="section-heading">
+        <div><p class="eyebrow dark">Movimentações</p><h2>Admissões, desligamentos e turnover</h2></div>
+        <div class="filters-inline">
+          <label class="filter-control">Mês<select id="turnoverMonthFilter"></select></label>
+          <label class="filter-control">Lote<select id="turnoverLotFilter"></select></label>
+        </div>
+      </div>
       <div class="summary-grid three">
         <article class="metric-card green"><span>Admissões</span><strong id="admissionMetric">0</strong><small>No mês selecionado</small></article>
         <article class="metric-card red"><span>Desligamentos</span><strong id="dismissalMetric">0</strong><small>No mês selecionado</small></article>
         <article class="metric-card purple"><span>Turnover</span><strong id="turnoverMetric">0%</strong><small>Desligamentos / quadro médio</small></article>
       </div>
-      <div class="panel-grid">
-        <article class="panel span-two"><div class="panel-title"><h3>Evolução do custo total</h3><span id="chartCaption"></span></div><div id="financeChart" class="chart" aria-label="Gráfico de evolução financeira"></div></article>
-        <article class="panel"><div class="panel-title"><h3>Custos por lote</h3><span id="tableCaption"></span></div><div class="table-wrap"><table><thead><tr><th>Lote</th><th>Salários</th><th>Extras</th><th>DSR</th><th>Total</th></tr></thead><tbody id="financeTable"></tbody></table></div></article>
-      </div>
       <article class="panel">
-        <div class="panel-title"><h3>Turnover acumulado por lote</h3><span id="turnoverCaption"></span></div>
-        <div class="table-wrap"><table><thead><tr><th>Lote</th><th>Nº Func início</th><th>Nº Func fim</th><th>Desligamentos</th><th>Méd Func</th><th>Turnover</th><th>Turnover prop.</th></tr></thead><tbody id="turnoverTable"></tbody></table></div>
+        <div class="panel-title"><h3>Turnover mensal por lote</h3><span id="turnoverCaption"></span></div>
+        <div class="table-wrap"><table><thead><tr><th>Lote</th><th>Nº Func início</th><th>Nº Func fim</th><th>Admissões</th><th>Desligamentos</th><th>Méd Func</th><th>Turnover</th></tr></thead><tbody id="turnoverTable"></tbody></table></div>
       </article>
     </section>
 
@@ -96,7 +107,7 @@
   </main>
 
   <footer><div class="shell">Dashboard com informações consolidadas. Nenhum nome ou matrícula é publicado.</div></footer>
-  <script src="data.js?v=20260615-turnover3"></script>
-  <script src="app.js?v=20260615-turnover3"></script>
+  <script src="data.js?v=20260615-separado1"></script>
+  <script src="app.js?v=20260615-separado1"></script>
 </body>
 </html>
