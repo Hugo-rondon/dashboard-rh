@@ -42,6 +42,8 @@ function renderFinance() {
   const turnoverSelected = turnoverRows(month, lot);
   const averageHeadcount = sum(turnoverSelected, "averageHeadcount");
   const dismissals = sum(turnoverSelected, "dismissals");
+  const accumulatedAverageHeadcount = sum(turnoverSelected, "accumulatedAverageHeadcount");
+  const accumulatedDismissals = sum(turnoverSelected, "accumulatedDismissals");
   $("salaryMetric").textContent = money(sum(selected, "salary"));
   $("overtimeMetric").textContent = money(sum(selected, "overtime"));
   $("dsrMetric").textContent = money(sum(selected, "dsr"));
@@ -52,7 +54,7 @@ function renderFinance() {
   $("turnoverMetric").textContent = percent(averageHeadcount ? dismissals / averageHeadcount : 0);
   const label = $("monthFilter").selectedOptions[0].textContent;
   $("tableCaption").textContent = label;
-  $("turnoverCaption").textContent = lot === "all" ? label : `${label} · ${lot}`;
+  $("turnoverCaption").textContent = lot === "all" ? `Até ${label}` : `Até ${label} · ${lot}`;
   $("financeTable").innerHTML = data.lots.map(name => {
     const row = financeRows(month, name)[0] || {};
     const hidden = lot !== "all" && lot !== name;
@@ -61,10 +63,10 @@ function renderFinance() {
   const turnoverRowsHtml = data.lots.map(name => {
     const row = turnoverRows(month, name)[0] || {};
     const hidden = lot !== "all" && lot !== name;
-    return `<tr${hidden ? ' style="opacity:.25"' : ""}><td>${name}</td><td>${number(row.startHeadcount)}</td><td>${number(row.endHeadcount)}</td><td>${number(row.dismissals)}</td><td>${number(row.averageHeadcount)}</td><td><strong>${percent(row.turnoverRate)}</strong></td></tr>`;
+    return `<tr${hidden ? ' style="opacity:.25"' : ""}><td>${name}</td><td>${number(row.accumulatedStartHeadcount)}</td><td>${number(row.accumulatedEndHeadcount)}</td><td>${number(row.accumulatedDismissals)}</td><td>${number(row.accumulatedAverageHeadcount)}</td><td><strong>${percent(row.accumulatedTurnoverRate)}</strong></td><td>${percent(row.accumulatedProportional)}</td></tr>`;
   }).join("");
-  const totalRate = averageHeadcount ? dismissals / averageHeadcount : 0;
-  $("turnoverTable").innerHTML = `${turnoverRowsHtml}<tr><td><strong>Total</strong></td><td><strong>${number(sum(turnoverSelected, "startHeadcount"))}</strong></td><td><strong>${number(sum(turnoverSelected, "endHeadcount"))}</strong></td><td><strong>${number(dismissals)}</strong></td><td><strong>${number(averageHeadcount)}</strong></td><td><strong>${percent(totalRate)}</strong></td></tr>`;
+  const totalRate = accumulatedAverageHeadcount ? accumulatedDismissals / accumulatedAverageHeadcount : 0;
+  $("turnoverTable").innerHTML = `${turnoverRowsHtml}<tr><td><strong>Total</strong></td><td><strong>${number(sum(turnoverSelected, "accumulatedStartHeadcount"))}</strong></td><td><strong>${number(sum(turnoverSelected, "accumulatedEndHeadcount"))}</strong></td><td><strong>${number(accumulatedDismissals)}</strong></td><td><strong>${number(accumulatedAverageHeadcount)}</strong></td><td><strong>${percent(totalRate)}</strong></td><td><strong>${percent(sum(turnoverSelected, "accumulatedProportional"))}</strong></td></tr>`;
   renderFinanceChart(lot);
 }
 

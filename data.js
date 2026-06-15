@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-06-15T20:21:41.625Z",
+  "generatedAt": "2026-06-15T20:37:44.469Z",
   "lots": [
     "ADM 008",
     "LOTE 11",
@@ -874,7 +874,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 1,
       "endHeadcount": 7,
       "averageHeadcount": 4,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 7,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 3.5,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-02",
@@ -885,7 +891,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 0,
       "endHeadcount": 14,
       "averageHeadcount": 7,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 14,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 7,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-02",
@@ -896,7 +908,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 0,
       "endHeadcount": 1,
       "averageHeadcount": 0.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 1,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 0.5,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-02",
@@ -907,7 +925,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 0,
       "endHeadcount": 22,
       "averageHeadcount": 11,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 22,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 11,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-02",
@@ -918,7 +942,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 0,
       "endHeadcount": 0,
       "averageHeadcount": 0,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 0,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 0,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-02",
@@ -929,7 +959,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 0,
       "endHeadcount": 1,
       "averageHeadcount": 0.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 1,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 0.5,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-03",
@@ -940,7 +976,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 7,
       "endHeadcount": 9,
       "averageHeadcount": 8,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 9,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 4.5,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-03",
@@ -951,7 +993,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 14,
       "endHeadcount": 18,
       "averageHeadcount": 16,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 18,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 9,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-03",
@@ -962,7 +1010,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 1,
       "endHeadcount": 22,
       "averageHeadcount": 11.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 22,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 11,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-03",
@@ -973,7 +1027,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 22,
       "endHeadcount": 39,
       "averageHeadcount": 30.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 39,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 19.5,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-03",
@@ -984,7 +1044,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 0,
       "endHeadcount": 21,
       "averageHeadcount": 10.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 21,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 10.5,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-03",
@@ -995,7 +1061,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 1,
       "endHeadcount": 8,
       "averageHeadcount": 4.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 8,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 4,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-04",
@@ -1006,7 +1078,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 9,
       "endHeadcount": 12,
       "averageHeadcount": 10.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 12,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 6,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-04",
@@ -1017,7 +1095,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 18,
       "endHeadcount": 23,
       "averageHeadcount": 20.5,
-      "turnoverRate": 0.0975609756097561
+      "turnoverRate": 0.0975609756097561,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 23,
+      "accumulatedDismissals": 2,
+      "accumulatedAverageHeadcount": 11.5,
+      "accumulatedTurnoverRate": 0.17391304347826086,
+      "accumulatedProportional": 0.2
     },
     {
       "month": "2025-04",
@@ -1028,7 +1112,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 22,
       "endHeadcount": 38,
       "averageHeadcount": 30,
-      "turnoverRate": 0.03333333333333333
+      "turnoverRate": 0.03333333333333333,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 38,
+      "accumulatedDismissals": 1,
+      "accumulatedAverageHeadcount": 19,
+      "accumulatedTurnoverRate": 0.05263157894736842,
+      "accumulatedProportional": 0.1
     },
     {
       "month": "2025-04",
@@ -1039,7 +1129,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 39,
       "endHeadcount": 57,
       "averageHeadcount": 48,
-      "turnoverRate": 0.08333333333333333
+      "turnoverRate": 0.08333333333333333,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 57,
+      "accumulatedDismissals": 4,
+      "accumulatedAverageHeadcount": 28.5,
+      "accumulatedTurnoverRate": 0.14035087719298245,
+      "accumulatedProportional": 0.4
     },
     {
       "month": "2025-04",
@@ -1050,7 +1146,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 21,
       "endHeadcount": 41,
       "averageHeadcount": 31,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 41,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 20.5,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-04",
@@ -1061,7 +1163,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 8,
       "endHeadcount": 15,
       "averageHeadcount": 11.5,
-      "turnoverRate": 0.2608695652173913
+      "turnoverRate": 0.2608695652173913,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 15,
+      "accumulatedDismissals": 3,
+      "accumulatedAverageHeadcount": 7.5,
+      "accumulatedTurnoverRate": 0.4,
+      "accumulatedProportional": 0.3
     },
     {
       "month": "2025-05",
@@ -1072,7 +1180,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 12,
       "endHeadcount": 16,
       "averageHeadcount": 14,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 16,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 8,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-05",
@@ -1083,7 +1197,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 23,
       "endHeadcount": 27,
       "averageHeadcount": 25,
-      "turnoverRate": 0.04
+      "turnoverRate": 0.04,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 27,
+      "accumulatedDismissals": 3,
+      "accumulatedAverageHeadcount": 13.5,
+      "accumulatedTurnoverRate": 0.2222222222222222,
+      "accumulatedProportional": 0.13636363636363635
     },
     {
       "month": "2025-05",
@@ -1094,7 +1214,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 38,
       "endHeadcount": 46,
       "averageHeadcount": 42,
-      "turnoverRate": 0.07142857142857142
+      "turnoverRate": 0.07142857142857142,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 46,
+      "accumulatedDismissals": 4,
+      "accumulatedAverageHeadcount": 23,
+      "accumulatedTurnoverRate": 0.17391304347826086,
+      "accumulatedProportional": 0.18181818181818182
     },
     {
       "month": "2025-05",
@@ -1105,7 +1231,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 57,
       "endHeadcount": 66,
       "averageHeadcount": 61.5,
-      "turnoverRate": 0.04878048780487805
+      "turnoverRate": 0.04878048780487805,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 66,
+      "accumulatedDismissals": 7,
+      "accumulatedAverageHeadcount": 33,
+      "accumulatedTurnoverRate": 0.21212121212121213,
+      "accumulatedProportional": 0.3181818181818182
     },
     {
       "month": "2025-05",
@@ -1116,7 +1248,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 41,
       "endHeadcount": 56,
       "averageHeadcount": 48.5,
-      "turnoverRate": 0.10309278350515463
+      "turnoverRate": 0.10309278350515463,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 56,
+      "accumulatedDismissals": 5,
+      "accumulatedAverageHeadcount": 28,
+      "accumulatedTurnoverRate": 0.17857142857142858,
+      "accumulatedProportional": 0.22727272727272727
     },
     {
       "month": "2025-05",
@@ -1127,7 +1265,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 15,
       "endHeadcount": 30,
       "averageHeadcount": 22.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 30,
+      "accumulatedDismissals": 3,
+      "accumulatedAverageHeadcount": 15,
+      "accumulatedTurnoverRate": 0.2,
+      "accumulatedProportional": 0.13636363636363635
     },
     {
       "month": "2025-06",
@@ -1138,7 +1282,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 16,
       "endHeadcount": 20,
       "averageHeadcount": 18,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 20,
+      "accumulatedDismissals": 0,
+      "accumulatedAverageHeadcount": 10,
+      "accumulatedTurnoverRate": 0,
+      "accumulatedProportional": 0
     },
     {
       "month": "2025-06",
@@ -1149,7 +1299,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 27,
       "endHeadcount": 27,
       "averageHeadcount": 27,
-      "turnoverRate": 0.1111111111111111
+      "turnoverRate": 0.1111111111111111,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 27,
+      "accumulatedDismissals": 6,
+      "accumulatedAverageHeadcount": 13.5,
+      "accumulatedTurnoverRate": 0.4444444444444444,
+      "accumulatedProportional": 0.2
     },
     {
       "month": "2025-06",
@@ -1160,7 +1316,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 46,
       "endHeadcount": 49,
       "averageHeadcount": 47.5,
-      "turnoverRate": 0.08421052631578947
+      "turnoverRate": 0.08421052631578947,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 49,
+      "accumulatedDismissals": 8,
+      "accumulatedAverageHeadcount": 24.5,
+      "accumulatedTurnoverRate": 0.32653061224489793,
+      "accumulatedProportional": 0.26666666666666666
     },
     {
       "month": "2025-06",
@@ -1171,7 +1333,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 66,
       "endHeadcount": 96,
       "averageHeadcount": 81,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 96,
+      "accumulatedDismissals": 7,
+      "accumulatedAverageHeadcount": 48,
+      "accumulatedTurnoverRate": 0.14583333333333334,
+      "accumulatedProportional": 0.23333333333333334
     },
     {
       "month": "2025-06",
@@ -1182,7 +1350,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 56,
       "endHeadcount": 79,
       "averageHeadcount": 67.5,
-      "turnoverRate": 0.014814814814814815
+      "turnoverRate": 0.014814814814814815,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 79,
+      "accumulatedDismissals": 6,
+      "accumulatedAverageHeadcount": 39.5,
+      "accumulatedTurnoverRate": 0.1518987341772152,
+      "accumulatedProportional": 0.2
     },
     {
       "month": "2025-06",
@@ -1193,7 +1367,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 30,
       "endHeadcount": 46,
       "averageHeadcount": 38,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 46,
+      "accumulatedDismissals": 3,
+      "accumulatedAverageHeadcount": 23,
+      "accumulatedTurnoverRate": 0.13043478260869565,
+      "accumulatedProportional": 0.1
     },
     {
       "month": "2025-07",
@@ -1204,7 +1384,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 20,
       "endHeadcount": 20,
       "averageHeadcount": 20,
-      "turnoverRate": 0.1
+      "turnoverRate": 0.1,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 20,
+      "accumulatedDismissals": 2,
+      "accumulatedAverageHeadcount": 10,
+      "accumulatedTurnoverRate": 0.2,
+      "accumulatedProportional": 0.03278688524590164
     },
     {
       "month": "2025-07",
@@ -1215,7 +1401,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 27,
       "endHeadcount": 29,
       "averageHeadcount": 28,
-      "turnoverRate": 0.17857142857142858
+      "turnoverRate": 0.17857142857142858,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 29,
+      "accumulatedDismissals": 11,
+      "accumulatedAverageHeadcount": 14.5,
+      "accumulatedTurnoverRate": 0.7586206896551724,
+      "accumulatedProportional": 0.18032786885245902
     },
     {
       "month": "2025-07",
@@ -1226,7 +1418,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 49,
       "endHeadcount": 54,
       "averageHeadcount": 51.5,
-      "turnoverRate": 0.17475728155339806
+      "turnoverRate": 0.17475728155339806,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 54,
+      "accumulatedDismissals": 17,
+      "accumulatedAverageHeadcount": 27,
+      "accumulatedTurnoverRate": 0.6296296296296297,
+      "accumulatedProportional": 0.2786885245901639
     },
     {
       "month": "2025-07",
@@ -1237,7 +1435,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 96,
       "endHeadcount": 94,
       "averageHeadcount": 95,
-      "turnoverRate": 0.08421052631578947
+      "turnoverRate": 0.08421052631578947,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 94,
+      "accumulatedDismissals": 15,
+      "accumulatedAverageHeadcount": 47,
+      "accumulatedTurnoverRate": 0.3191489361702128,
+      "accumulatedProportional": 0.2459016393442623
     },
     {
       "month": "2025-07",
@@ -1248,7 +1452,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 79,
       "endHeadcount": 96,
       "averageHeadcount": 87.5,
-      "turnoverRate": 0.06857142857142857
+      "turnoverRate": 0.06857142857142857,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 96,
+      "accumulatedDismissals": 12,
+      "accumulatedAverageHeadcount": 48,
+      "accumulatedTurnoverRate": 0.25,
+      "accumulatedProportional": 0.19672131147540983
     },
     {
       "month": "2025-07",
@@ -1259,7 +1469,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 46,
       "endHeadcount": 58,
       "averageHeadcount": 52,
-      "turnoverRate": 0.019230769230769232
+      "turnoverRate": 0.019230769230769232,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 58,
+      "accumulatedDismissals": 4,
+      "accumulatedAverageHeadcount": 29,
+      "accumulatedTurnoverRate": 0.13793103448275862,
+      "accumulatedProportional": 0.06557377049180328
     },
     {
       "month": "2025-08",
@@ -1270,7 +1486,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 20,
       "endHeadcount": 26,
       "averageHeadcount": 23,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 26,
+      "accumulatedDismissals": 2,
+      "accumulatedAverageHeadcount": 13,
+      "accumulatedTurnoverRate": 0.15384615384615385,
+      "accumulatedProportional": 0.025
     },
     {
       "month": "2025-08",
@@ -1281,7 +1503,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 29,
       "endHeadcount": 35,
       "averageHeadcount": 32,
-      "turnoverRate": 0.03125
+      "turnoverRate": 0.03125,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 35,
+      "accumulatedDismissals": 12,
+      "accumulatedAverageHeadcount": 17.5,
+      "accumulatedTurnoverRate": 0.6857142857142857,
+      "accumulatedProportional": 0.15
     },
     {
       "month": "2025-08",
@@ -1292,7 +1520,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 54,
       "endHeadcount": 59,
       "averageHeadcount": 56.5,
-      "turnoverRate": 0.05309734513274336
+      "turnoverRate": 0.05309734513274336,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 59,
+      "accumulatedDismissals": 20,
+      "accumulatedAverageHeadcount": 29.5,
+      "accumulatedTurnoverRate": 0.6779661016949152,
+      "accumulatedProportional": 0.25
     },
     {
       "month": "2025-08",
@@ -1303,7 +1537,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 94,
       "endHeadcount": 105,
       "averageHeadcount": 99.5,
-      "turnoverRate": 0.020100502512562814
+      "turnoverRate": 0.020100502512562814,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 105,
+      "accumulatedDismissals": 17,
+      "accumulatedAverageHeadcount": 52.5,
+      "accumulatedTurnoverRate": 0.3238095238095238,
+      "accumulatedProportional": 0.2125
     },
     {
       "month": "2025-08",
@@ -1314,7 +1554,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 96,
       "endHeadcount": 110,
       "averageHeadcount": 103,
-      "turnoverRate": 0.07766990291262135
+      "turnoverRate": 0.07766990291262135,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 110,
+      "accumulatedDismissals": 20,
+      "accumulatedAverageHeadcount": 55,
+      "accumulatedTurnoverRate": 0.36363636363636365,
+      "accumulatedProportional": 0.25
     },
     {
       "month": "2025-08",
@@ -1325,7 +1571,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 58,
       "endHeadcount": 81,
       "averageHeadcount": 69.5,
-      "turnoverRate": 0.07194244604316546
+      "turnoverRate": 0.07194244604316546,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 81,
+      "accumulatedDismissals": 9,
+      "accumulatedAverageHeadcount": 40.5,
+      "accumulatedTurnoverRate": 0.2222222222222222,
+      "accumulatedProportional": 0.1125
     },
     {
       "month": "2025-09",
@@ -1336,7 +1588,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 26,
       "endHeadcount": 28,
       "averageHeadcount": 27,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 28,
+      "accumulatedDismissals": 2,
+      "accumulatedAverageHeadcount": 14,
+      "accumulatedTurnoverRate": 0.14285714285714285,
+      "accumulatedProportional": 0.018691588785046728
     },
     {
       "month": "2025-09",
@@ -1347,7 +1605,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 35,
       "endHeadcount": 50,
       "averageHeadcount": 42.5,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 50,
+      "accumulatedDismissals": 12,
+      "accumulatedAverageHeadcount": 25,
+      "accumulatedTurnoverRate": 0.48,
+      "accumulatedProportional": 0.11214953271028037
     },
     {
       "month": "2025-09",
@@ -1358,7 +1622,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 59,
       "endHeadcount": 77,
       "averageHeadcount": 68,
-      "turnoverRate": 0.04411764705882353
+      "turnoverRate": 0.04411764705882353,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 77,
+      "accumulatedDismissals": 23,
+      "accumulatedAverageHeadcount": 38.5,
+      "accumulatedTurnoverRate": 0.5974025974025974,
+      "accumulatedProportional": 0.21495327102803738
     },
     {
       "month": "2025-09",
@@ -1369,7 +1639,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 105,
       "endHeadcount": 109,
       "averageHeadcount": 107,
-      "turnoverRate": 0.102803738317757
+      "turnoverRate": 0.102803738317757,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 109,
+      "accumulatedDismissals": 28,
+      "accumulatedAverageHeadcount": 54.5,
+      "accumulatedTurnoverRate": 0.5137614678899083,
+      "accumulatedProportional": 0.2616822429906542
     },
     {
       "month": "2025-09",
@@ -1380,7 +1656,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 110,
       "endHeadcount": 123,
       "averageHeadcount": 116.5,
-      "turnoverRate": 0.034334763948497854
+      "turnoverRate": 0.034334763948497854,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 123,
+      "accumulatedDismissals": 24,
+      "accumulatedAverageHeadcount": 61.5,
+      "accumulatedTurnoverRate": 0.3902439024390244,
+      "accumulatedProportional": 0.22429906542056074
     },
     {
       "month": "2025-09",
@@ -1391,7 +1673,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 81,
       "endHeadcount": 87,
       "averageHeadcount": 84,
-      "turnoverRate": 0.10714285714285714
+      "turnoverRate": 0.10714285714285714,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 87,
+      "accumulatedDismissals": 18,
+      "accumulatedAverageHeadcount": 43.5,
+      "accumulatedTurnoverRate": 0.41379310344827586,
+      "accumulatedProportional": 0.16822429906542055
     },
     {
       "month": "2025-10",
@@ -1402,7 +1690,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 28,
       "endHeadcount": 32,
       "averageHeadcount": 30,
-      "turnoverRate": 0.03333333333333333
+      "turnoverRate": 0.03333333333333333,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 32,
+      "accumulatedDismissals": 3,
+      "accumulatedAverageHeadcount": 16,
+      "accumulatedTurnoverRate": 0.1875,
+      "accumulatedProportional": 0.019736842105263157
     },
     {
       "month": "2025-10",
@@ -1413,7 +1707,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 50,
       "endHeadcount": 50,
       "averageHeadcount": 50,
-      "turnoverRate": 0.06
+      "turnoverRate": 0.06,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 50,
+      "accumulatedDismissals": 15,
+      "accumulatedAverageHeadcount": 25,
+      "accumulatedTurnoverRate": 0.6,
+      "accumulatedProportional": 0.09868421052631579
     },
     {
       "month": "2025-10",
@@ -1424,7 +1724,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 77,
       "endHeadcount": 71,
       "averageHeadcount": 74,
-      "turnoverRate": 0.17567567567567569
+      "turnoverRate": 0.17567567567567569,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 71,
+      "accumulatedDismissals": 36,
+      "accumulatedAverageHeadcount": 35.5,
+      "accumulatedTurnoverRate": 1.0140845070422535,
+      "accumulatedProportional": 0.23684210526315788
     },
     {
       "month": "2025-10",
@@ -1435,7 +1741,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 109,
       "endHeadcount": 105,
       "averageHeadcount": 107,
-      "turnoverRate": 0.1308411214953271
+      "turnoverRate": 0.1308411214953271,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 105,
+      "accumulatedDismissals": 42,
+      "accumulatedAverageHeadcount": 52.5,
+      "accumulatedTurnoverRate": 0.8,
+      "accumulatedProportional": 0.27631578947368424
     },
     {
       "month": "2025-10",
@@ -1446,7 +1758,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 123,
       "endHeadcount": 129,
       "averageHeadcount": 126,
-      "turnoverRate": 0.06349206349206349
+      "turnoverRate": 0.06349206349206349,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 129,
+      "accumulatedDismissals": 32,
+      "accumulatedAverageHeadcount": 64.5,
+      "accumulatedTurnoverRate": 0.49612403100775193,
+      "accumulatedProportional": 0.21052631578947367
     },
     {
       "month": "2025-10",
@@ -1457,7 +1775,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 87,
       "endHeadcount": 97,
       "averageHeadcount": 92,
-      "turnoverRate": 0.06521739130434782
+      "turnoverRate": 0.06521739130434782,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 97,
+      "accumulatedDismissals": 24,
+      "accumulatedAverageHeadcount": 48.5,
+      "accumulatedTurnoverRate": 0.4948453608247423,
+      "accumulatedProportional": 0.15789473684210525
     },
     {
       "month": "2025-11",
@@ -1468,7 +1792,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 32,
       "endHeadcount": 32,
       "averageHeadcount": 32,
-      "turnoverRate": 0.03125
+      "turnoverRate": 0.03125,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 32,
+      "accumulatedDismissals": 4,
+      "accumulatedAverageHeadcount": 16,
+      "accumulatedTurnoverRate": 0.25,
+      "accumulatedProportional": 0.022222222222222223
     },
     {
       "month": "2025-11",
@@ -1479,7 +1809,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 50,
       "endHeadcount": 52,
       "averageHeadcount": 51,
-      "turnoverRate": 0.0196078431372549
+      "turnoverRate": 0.0196078431372549,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 52,
+      "accumulatedDismissals": 16,
+      "accumulatedAverageHeadcount": 26,
+      "accumulatedTurnoverRate": 0.6153846153846154,
+      "accumulatedProportional": 0.08888888888888889
     },
     {
       "month": "2025-11",
@@ -1490,7 +1826,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 71,
       "endHeadcount": 68,
       "averageHeadcount": 69.5,
-      "turnoverRate": 0.10071942446043165
+      "turnoverRate": 0.10071942446043165,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 68,
+      "accumulatedDismissals": 43,
+      "accumulatedAverageHeadcount": 34,
+      "accumulatedTurnoverRate": 1.2647058823529411,
+      "accumulatedProportional": 0.2388888888888889
     },
     {
       "month": "2025-11",
@@ -1501,7 +1843,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 105,
       "endHeadcount": 108,
       "averageHeadcount": 106.5,
-      "turnoverRate": 0.018779342723004695
+      "turnoverRate": 0.018779342723004695,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 108,
+      "accumulatedDismissals": 44,
+      "accumulatedAverageHeadcount": 54,
+      "accumulatedTurnoverRate": 0.8148148148148148,
+      "accumulatedProportional": 0.24444444444444444
     },
     {
       "month": "2025-11",
@@ -1512,7 +1860,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 129,
       "endHeadcount": 128,
       "averageHeadcount": 128.5,
-      "turnoverRate": 0.01556420233463035
+      "turnoverRate": 0.01556420233463035,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 128,
+      "accumulatedDismissals": 34,
+      "accumulatedAverageHeadcount": 64,
+      "accumulatedTurnoverRate": 0.53125,
+      "accumulatedProportional": 0.18888888888888888
     },
     {
       "month": "2025-11",
@@ -1523,7 +1877,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 97,
       "endHeadcount": 86,
       "averageHeadcount": 91.5,
-      "turnoverRate": 0.16393442622950818
+      "turnoverRate": 0.16393442622950818,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 86,
+      "accumulatedDismissals": 39,
+      "accumulatedAverageHeadcount": 43,
+      "accumulatedTurnoverRate": 0.9069767441860465,
+      "accumulatedProportional": 0.21666666666666667
     },
     {
       "month": "2025-12",
@@ -1534,7 +1894,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 32,
       "endHeadcount": 34,
       "averageHeadcount": 33,
-      "turnoverRate": 0
+      "turnoverRate": 0,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 34,
+      "accumulatedDismissals": 4,
+      "accumulatedAverageHeadcount": 17,
+      "accumulatedTurnoverRate": 0.23529411764705882,
+      "accumulatedProportional": 0.017777777777777778
     },
     {
       "month": "2025-12",
@@ -1545,7 +1911,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 52,
       "endHeadcount": 51,
       "averageHeadcount": 51.5,
-      "turnoverRate": 0.05825242718446602
+      "turnoverRate": 0.05825242718446602,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 51,
+      "accumulatedDismissals": 19,
+      "accumulatedAverageHeadcount": 25.5,
+      "accumulatedTurnoverRate": 0.7450980392156863,
+      "accumulatedProportional": 0.08444444444444445
     },
     {
       "month": "2025-12",
@@ -1556,7 +1928,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 68,
       "endHeadcount": 64,
       "averageHeadcount": 66,
-      "turnoverRate": 0.07575757575757576
+      "turnoverRate": 0.07575757575757576,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 64,
+      "accumulatedDismissals": 48,
+      "accumulatedAverageHeadcount": 32,
+      "accumulatedTurnoverRate": 1.5,
+      "accumulatedProportional": 0.21333333333333335
     },
     {
       "month": "2025-12",
@@ -1567,7 +1945,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 108,
       "endHeadcount": 98,
       "averageHeadcount": 103,
-      "turnoverRate": 0.11650485436893204
+      "turnoverRate": 0.11650485436893204,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 98,
+      "accumulatedDismissals": 56,
+      "accumulatedAverageHeadcount": 49,
+      "accumulatedTurnoverRate": 1.1428571428571428,
+      "accumulatedProportional": 0.24888888888888888
     },
     {
       "month": "2025-12",
@@ -1578,7 +1962,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 128,
       "endHeadcount": 113,
       "averageHeadcount": 120.5,
-      "turnoverRate": 0.12448132780082988
+      "turnoverRate": 0.12448132780082988,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 113,
+      "accumulatedDismissals": 49,
+      "accumulatedAverageHeadcount": 56.5,
+      "accumulatedTurnoverRate": 0.8672566371681416,
+      "accumulatedProportional": 0.21777777777777776
     },
     {
       "month": "2025-12",
@@ -1589,7 +1979,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 86,
       "endHeadcount": 80,
       "averageHeadcount": 83,
-      "turnoverRate": 0.12048192771084337
+      "turnoverRate": 0.12048192771084337,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 80,
+      "accumulatedDismissals": 49,
+      "accumulatedAverageHeadcount": 40,
+      "accumulatedTurnoverRate": 1.225,
+      "accumulatedProportional": 0.21777777777777776
     },
     {
       "month": "2026-01",
@@ -1600,7 +1996,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 34,
       "endHeadcount": 35,
       "averageHeadcount": 34.5,
-      "turnoverRate": 0.028985507246376812
+      "turnoverRate": 0.028985507246376812,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 35,
+      "accumulatedDismissals": 5,
+      "accumulatedAverageHeadcount": 17.5,
+      "accumulatedTurnoverRate": 0.2857142857142857,
+      "accumulatedProportional": 0.01953125
     },
     {
       "month": "2026-01",
@@ -1611,7 +2013,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 51,
       "endHeadcount": 57,
       "averageHeadcount": 54,
-      "turnoverRate": 0.037037037037037035
+      "turnoverRate": 0.037037037037037035,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 57,
+      "accumulatedDismissals": 21,
+      "accumulatedAverageHeadcount": 28.5,
+      "accumulatedTurnoverRate": 0.7368421052631579,
+      "accumulatedProportional": 0.08203125
     },
     {
       "month": "2026-01",
@@ -1622,7 +2030,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 64,
       "endHeadcount": 76,
       "averageHeadcount": 70,
-      "turnoverRate": 0.1
+      "turnoverRate": 0.1,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 76,
+      "accumulatedDismissals": 55,
+      "accumulatedAverageHeadcount": 38,
+      "accumulatedTurnoverRate": 1.4473684210526316,
+      "accumulatedProportional": 0.21484375
     },
     {
       "month": "2026-01",
@@ -1633,7 +2047,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 98,
       "endHeadcount": 107,
       "averageHeadcount": 102.5,
-      "turnoverRate": 0.04878048780487805
+      "turnoverRate": 0.04878048780487805,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 107,
+      "accumulatedDismissals": 61,
+      "accumulatedAverageHeadcount": 53.5,
+      "accumulatedTurnoverRate": 1.1401869158878504,
+      "accumulatedProportional": 0.23828125
     },
     {
       "month": "2026-01",
@@ -1644,7 +2064,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 113,
       "endHeadcount": 116,
       "averageHeadcount": 114.5,
-      "turnoverRate": 0.08733624454148471
+      "turnoverRate": 0.08733624454148471,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 116,
+      "accumulatedDismissals": 59,
+      "accumulatedAverageHeadcount": 58,
+      "accumulatedTurnoverRate": 1.0172413793103448,
+      "accumulatedProportional": 0.23046875
     },
     {
       "month": "2026-01",
@@ -1655,7 +2081,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 80,
       "endHeadcount": 81,
       "averageHeadcount": 80.5,
-      "turnoverRate": 0.07453416149068323
+      "turnoverRate": 0.07453416149068323,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 81,
+      "accumulatedDismissals": 55,
+      "accumulatedAverageHeadcount": 40.5,
+      "accumulatedTurnoverRate": 1.3580246913580247,
+      "accumulatedProportional": 0.21484375
     },
     {
       "month": "2026-02",
@@ -1666,7 +2098,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 35,
       "endHeadcount": 37,
       "averageHeadcount": 36,
-      "turnoverRate": 0.027777777777777776
+      "turnoverRate": 0.027777777777777776,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 37,
+      "accumulatedDismissals": 6,
+      "accumulatedAverageHeadcount": 18.5,
+      "accumulatedTurnoverRate": 0.32432432432432434,
+      "accumulatedProportional": 0.020905923344947737
     },
     {
       "month": "2026-02",
@@ -1677,7 +2115,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 57,
       "endHeadcount": 66,
       "averageHeadcount": 61.5,
-      "turnoverRate": 0.0975609756097561
+      "turnoverRate": 0.0975609756097561,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 66,
+      "accumulatedDismissals": 27,
+      "accumulatedAverageHeadcount": 33,
+      "accumulatedTurnoverRate": 0.8181818181818182,
+      "accumulatedProportional": 0.09407665505226481
     },
     {
       "month": "2026-02",
@@ -1688,7 +2132,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 76,
       "endHeadcount": 98,
       "averageHeadcount": 87,
-      "turnoverRate": 0.034482758620689655
+      "turnoverRate": 0.034482758620689655,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 98,
+      "accumulatedDismissals": 58,
+      "accumulatedAverageHeadcount": 49,
+      "accumulatedTurnoverRate": 1.183673469387755,
+      "accumulatedProportional": 0.20209059233449478
     },
     {
       "month": "2026-02",
@@ -1699,7 +2149,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 107,
       "endHeadcount": 124,
       "averageHeadcount": 115.5,
-      "turnoverRate": 0.06060606060606061
+      "turnoverRate": 0.06060606060606061,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 124,
+      "accumulatedDismissals": 68,
+      "accumulatedAverageHeadcount": 62,
+      "accumulatedTurnoverRate": 1.096774193548387,
+      "accumulatedProportional": 0.23693379790940766
     },
     {
       "month": "2026-02",
@@ -1710,7 +2166,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 116,
       "endHeadcount": 121,
       "averageHeadcount": 118.5,
-      "turnoverRate": 0.05063291139240506
+      "turnoverRate": 0.05063291139240506,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 121,
+      "accumulatedDismissals": 65,
+      "accumulatedAverageHeadcount": 60.5,
+      "accumulatedTurnoverRate": 1.0743801652892562,
+      "accumulatedProportional": 0.2264808362369338
     },
     {
       "month": "2026-02",
@@ -1721,7 +2183,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 81,
       "endHeadcount": 94,
       "averageHeadcount": 87.5,
-      "turnoverRate": 0.09142857142857143
+      "turnoverRate": 0.09142857142857143,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 94,
+      "accumulatedDismissals": 63,
+      "accumulatedAverageHeadcount": 47,
+      "accumulatedTurnoverRate": 1.3404255319148937,
+      "accumulatedProportional": 0.21951219512195122
     },
     {
       "month": "2026-03",
@@ -1732,7 +2200,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 37,
       "endHeadcount": 35,
       "averageHeadcount": 36,
-      "turnoverRate": 0.05555555555555555
+      "turnoverRate": 0.05555555555555555,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 35,
+      "accumulatedDismissals": 8,
+      "accumulatedAverageHeadcount": 17.5,
+      "accumulatedTurnoverRate": 0.45714285714285713,
+      "accumulatedProportional": 0.026490066225165563
     },
     {
       "month": "2026-03",
@@ -1743,7 +2217,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 66,
       "endHeadcount": 65,
       "averageHeadcount": 65.5,
-      "turnoverRate": 0.030534351145038167
+      "turnoverRate": 0.030534351145038167,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 65,
+      "accumulatedDismissals": 29,
+      "accumulatedAverageHeadcount": 32.5,
+      "accumulatedTurnoverRate": 0.8923076923076924,
+      "accumulatedProportional": 0.09602649006622517
     },
     {
       "month": "2026-03",
@@ -1754,7 +2234,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 98,
       "endHeadcount": 109,
       "averageHeadcount": 103.5,
-      "turnoverRate": 0.00966183574879227
+      "turnoverRate": 0.00966183574879227,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 109,
+      "accumulatedDismissals": 59,
+      "accumulatedAverageHeadcount": 54.5,
+      "accumulatedTurnoverRate": 1.0825688073394495,
+      "accumulatedProportional": 0.19536423841059603
     },
     {
       "month": "2026-03",
@@ -1765,7 +2251,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 124,
       "endHeadcount": 138,
       "averageHeadcount": 131,
-      "turnoverRate": 0.015267175572519083
+      "turnoverRate": 0.015267175572519083,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 138,
+      "accumulatedDismissals": 70,
+      "accumulatedAverageHeadcount": 69,
+      "accumulatedTurnoverRate": 1.0144927536231885,
+      "accumulatedProportional": 0.23178807947019867
     },
     {
       "month": "2026-03",
@@ -1776,7 +2268,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 121,
       "endHeadcount": 135,
       "averageHeadcount": 128,
-      "turnoverRate": 0.046875
+      "turnoverRate": 0.046875,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 135,
+      "accumulatedDismissals": 71,
+      "accumulatedAverageHeadcount": 67.5,
+      "accumulatedTurnoverRate": 1.0518518518518518,
+      "accumulatedProportional": 0.23509933774834438
     },
     {
       "month": "2026-03",
@@ -1787,7 +2285,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 94,
       "endHeadcount": 103,
       "averageHeadcount": 98.5,
-      "turnoverRate": 0.02030456852791878
+      "turnoverRate": 0.02030456852791878,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 103,
+      "accumulatedDismissals": 65,
+      "accumulatedAverageHeadcount": 51.5,
+      "accumulatedTurnoverRate": 1.2621359223300972,
+      "accumulatedProportional": 0.2152317880794702
     },
     {
       "month": "2026-04",
@@ -1798,7 +2302,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 35,
       "endHeadcount": 37,
       "averageHeadcount": 36,
-      "turnoverRate": 0.027777777777777776
+      "turnoverRate": 0.027777777777777776,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 37,
+      "accumulatedDismissals": 9,
+      "accumulatedAverageHeadcount": 18.5,
+      "accumulatedTurnoverRate": 0.4864864864864865,
+      "accumulatedProportional": 0.02586206896551724
     },
     {
       "month": "2026-04",
@@ -1809,7 +2319,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 65,
       "endHeadcount": 64,
       "averageHeadcount": 64.5,
-      "turnoverRate": 0.031007751937984496
+      "turnoverRate": 0.031007751937984496,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 64,
+      "accumulatedDismissals": 31,
+      "accumulatedAverageHeadcount": 32,
+      "accumulatedTurnoverRate": 0.96875,
+      "accumulatedProportional": 0.08908045977011494
     },
     {
       "month": "2026-04",
@@ -1820,7 +2336,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 109,
       "endHeadcount": 101,
       "averageHeadcount": 105,
-      "turnoverRate": 0.09523809523809523
+      "turnoverRate": 0.09523809523809523,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 101,
+      "accumulatedDismissals": 69,
+      "accumulatedAverageHeadcount": 50.5,
+      "accumulatedTurnoverRate": 1.3663366336633664,
+      "accumulatedProportional": 0.19827586206896552
     },
     {
       "month": "2026-04",
@@ -1831,7 +2353,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 138,
       "endHeadcount": 141,
       "averageHeadcount": 139.5,
-      "turnoverRate": 0.02867383512544803
+      "turnoverRate": 0.02867383512544803,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 141,
+      "accumulatedDismissals": 74,
+      "accumulatedAverageHeadcount": 70.5,
+      "accumulatedTurnoverRate": 1.049645390070922,
+      "accumulatedProportional": 0.21264367816091953
     },
     {
       "month": "2026-04",
@@ -1842,7 +2370,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 135,
       "endHeadcount": 130,
       "averageHeadcount": 132.5,
-      "turnoverRate": 0.13584905660377358
+      "turnoverRate": 0.13584905660377358,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 130,
+      "accumulatedDismissals": 89,
+      "accumulatedAverageHeadcount": 65,
+      "accumulatedTurnoverRate": 1.3692307692307693,
+      "accumulatedProportional": 0.2557471264367816
     },
     {
       "month": "2026-04",
@@ -1853,7 +2387,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 103,
       "endHeadcount": 102,
       "averageHeadcount": 102.5,
-      "turnoverRate": 0.1073170731707317
+      "turnoverRate": 0.1073170731707317,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 102,
+      "accumulatedDismissals": 76,
+      "accumulatedAverageHeadcount": 51,
+      "accumulatedTurnoverRate": 1.4901960784313726,
+      "accumulatedProportional": 0.21839080459770116
     },
     {
       "month": "2026-05",
@@ -1864,7 +2404,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 37,
       "endHeadcount": 39,
       "averageHeadcount": 38,
-      "turnoverRate": 0.02631578947368421
+      "turnoverRate": 0.02631578947368421,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 39,
+      "accumulatedDismissals": 10,
+      "accumulatedAverageHeadcount": 19.5,
+      "accumulatedTurnoverRate": 0.5128205128205128,
+      "accumulatedProportional": 0.023809523809523808
     },
     {
       "month": "2026-05",
@@ -1875,7 +2421,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 64,
       "endHeadcount": 52,
       "averageHeadcount": 58,
-      "turnoverRate": 0.2413793103448276
+      "turnoverRate": 0.2413793103448276,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 52,
+      "accumulatedDismissals": 45,
+      "accumulatedAverageHeadcount": 26,
+      "accumulatedTurnoverRate": 1.7307692307692308,
+      "accumulatedProportional": 0.10714285714285714
     },
     {
       "month": "2026-05",
@@ -1886,7 +2438,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 101,
       "endHeadcount": 103,
       "averageHeadcount": 102,
-      "turnoverRate": 0.11764705882352941
+      "turnoverRate": 0.11764705882352941,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 103,
+      "accumulatedDismissals": 81,
+      "accumulatedAverageHeadcount": 51.5,
+      "accumulatedTurnoverRate": 1.5728155339805825,
+      "accumulatedProportional": 0.19285714285714287
     },
     {
       "month": "2026-05",
@@ -1897,7 +2455,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 141,
       "endHeadcount": 128,
       "averageHeadcount": 134.5,
-      "turnoverRate": 0.11895910780669144
+      "turnoverRate": 0.11895910780669144,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 128,
+      "accumulatedDismissals": 90,
+      "accumulatedAverageHeadcount": 64,
+      "accumulatedTurnoverRate": 1.40625,
+      "accumulatedProportional": 0.21428571428571427
     },
     {
       "month": "2026-05",
@@ -1908,7 +2472,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 130,
       "endHeadcount": 144,
       "averageHeadcount": 137,
-      "turnoverRate": 0.072992700729927
+      "turnoverRate": 0.072992700729927,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 144,
+      "accumulatedDismissals": 99,
+      "accumulatedAverageHeadcount": 72,
+      "accumulatedTurnoverRate": 1.375,
+      "accumulatedProportional": 0.2357142857142857
     },
     {
       "month": "2026-05",
@@ -1919,7 +2489,13 @@ window.DASHBOARD_DATA = {
       "startHeadcount": 102,
       "endHeadcount": 99,
       "averageHeadcount": 100.5,
-      "turnoverRate": 0.1890547263681592
+      "turnoverRate": 0.1890547263681592,
+      "accumulatedStartHeadcount": 0,
+      "accumulatedEndHeadcount": 99,
+      "accumulatedDismissals": 95,
+      "accumulatedAverageHeadcount": 49.5,
+      "accumulatedTurnoverRate": 1.9191919191919191,
+      "accumulatedProportional": 0.2261904761904762
     }
   ],
   "contractors": {
