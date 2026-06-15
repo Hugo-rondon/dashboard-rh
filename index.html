@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#08243d">
   <title>Dashboard RH | Consórcio</title>
-  <link rel="stylesheet" href="styles.css?v=20260615-turnover">
+  <link rel="stylesheet" href="styles.css?v=20260615-turnover2">
 </head>
 <body>
   <header class="hero">
@@ -68,6 +68,10 @@
         <article class="panel span-two"><div class="panel-title"><h3>Evolução do custo total</h3><span id="chartCaption"></span></div><div id="financeChart" class="chart" aria-label="Gráfico de evolução financeira"></div></article>
         <article class="panel"><div class="panel-title"><h3>Custos por lote</h3><span id="tableCaption"></span></div><div class="table-wrap"><table><thead><tr><th>Lote</th><th>Salários</th><th>Extras</th><th>DSR</th><th>Total</th></tr></thead><tbody id="financeTable"></tbody></table></div></article>
       </div>
+      <article class="panel">
+        <div class="panel-title"><h3>Turnover por lote</h3><span id="turnoverCaption"></span></div>
+        <div class="table-wrap"><table><thead><tr><th>Lote</th><th>Nº Func início</th><th>Nº Func fim</th><th>Desligamentos</th><th>Méd Func</th><th>Turnover</th></tr></thead><tbody id="turnoverTable"></tbody></table></div>
+      </article>
     </section>
 
     <section id="terceiros" class="dashboard-section">
@@ -92,7 +96,7 @@
   </main>
 
   <footer><div class="shell">Dashboard com informações consolidadas. Nenhum nome ou matrícula é publicado.</div></footer>
-  <script src="data.js?v=20260615-turnover"></script>
-  <script src="app.js?v=20260615-turnover"></script>
+  <script src="data.js?v=20260615-turnover2"></script>
+  <script src="app.js?v=20260615-turnover2"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "2026-06-15T20:06:05.967Z",
+  "generatedAt": "2026-06-15T20:21:41.625Z",
   "lots": [
     "ADM 008",
     "LOTE 11",
@@ -1013,33 +1013,33 @@ window.DASHBOARD_DATA = {
       "label": "abr/2025",
       "lot": "LOTE 11",
       "admissions": 7,
-      "dismissals": 0,
+      "dismissals": 2,
       "startHeadcount": 18,
-      "endHeadcount": 25,
-      "averageHeadcount": 21.5,
-      "turnoverRate": 0
+      "endHeadcount": 23,
+      "averageHeadcount": 20.5,
+      "turnoverRate": 0.0975609756097561
     },
     {
       "month": "2025-04",
       "label": "abr/2025",
       "lot": "LOTE 12",
       "admissions": 17,
-      "dismissals": 0,
+      "dismissals": 1,
       "startHeadcount": 22,
-      "endHeadcount": 39,
-      "averageHeadcount": 30.5,
-      "turnoverRate": 0
+      "endHeadcount": 38,
+      "averageHeadcount": 30,
+      "turnoverRate": 0.03333333333333333
     },
     {
       "month": "2025-04",
       "label": "abr/2025",
       "lot": "LOTE 13",
       "admissions": 22,
-      "dismissals": 0,
+      "dismissals": 4,
       "startHeadcount": 39,
-      "endHeadcount": 61,
-      "averageHeadcount": 50,
-      "turnoverRate": 0
+      "endHeadcount": 57,
+      "averageHeadcount": 48,
+      "turnoverRate": 0.08333333333333333
     },
     {
       "month": "2025-04",
@@ -1057,11 +1057,11 @@ window.DASHBOARD_DATA = {
       "label": "abr/2025",
       "lot": "LOTE 2B",
       "admissions": 10,
-      "dismissals": 0,
+      "dismissals": 3,
       "startHeadcount": 8,
-      "endHeadcount": 18,
-      "averageHeadcount": 13,
-      "turnoverRate": 0
+      "endHeadcount": 15,
+      "averageHeadcount": 11.5,
+      "turnoverRate": 0.2608695652173913
     },
     {
       "month": "2025-05",
@@ -1079,44 +1079,44 @@ window.DASHBOARD_DATA = {
       "label": "mai/2025",
       "lot": "LOTE 11",
       "admissions": 5,
-      "dismissals": 0,
-      "startHeadcount": 25,
-      "endHeadcount": 30,
-      "averageHeadcount": 27.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 23,
+      "endHeadcount": 27,
+      "averageHeadcount": 25,
+      "turnoverRate": 0.04
     },
     {
       "month": "2025-05",
       "label": "mai/2025",
       "lot": "LOTE 12",
       "admissions": 11,
-      "dismissals": 0,
-      "startHeadcount": 39,
-      "endHeadcount": 50,
-      "averageHeadcount": 44.5,
-      "turnoverRate": 0
+      "dismissals": 3,
+      "startHeadcount": 38,
+      "endHeadcount": 46,
+      "averageHeadcount": 42,
+      "turnoverRate": 0.07142857142857142
     },
     {
       "month": "2025-05",
       "label": "mai/2025",
       "lot": "LOTE 13",
       "admissions": 12,
-      "dismissals": 0,
-      "startHeadcount": 61,
-      "endHeadcount": 73,
-      "averageHeadcount": 67,
-      "turnoverRate": 0
+      "dismissals": 3,
+      "startHeadcount": 57,
+      "endHeadcount": 66,
+      "averageHeadcount": 61.5,
+      "turnoverRate": 0.04878048780487805
     },
     {
       "month": "2025-05",
       "label": "mai/2025",
       "lot": "LOTE 20",
       "admissions": 20,
-      "dismissals": 0,
+      "dismissals": 5,
       "startHeadcount": 41,
-      "endHeadcount": 61,
-      "averageHeadcount": 51,
-      "turnoverRate": 0
+      "endHeadcount": 56,
+      "averageHeadcount": 48.5,
+      "turnoverRate": 0.10309278350515463
     },
     {
       "month": "2025-05",
@@ -1124,9 +1124,9 @@ window.DASHBOARD_DATA = {
       "lot": "LOTE 2B",
       "admissions": 15,
       "dismissals": 0,
-      "startHeadcount": 18,
-      "endHeadcount": 33,
-      "averageHeadcount": 25.5,
+      "startHeadcount": 15,
+      "endHeadcount": 30,
+      "averageHeadcount": 22.5,
       "turnoverRate": 0
     },
     {
@@ -1145,22 +1145,22 @@ window.DASHBOARD_DATA = {
       "label": "jun/2025",
       "lot": "LOTE 11",
       "admissions": 3,
-      "dismissals": 0,
-      "startHeadcount": 30,
-      "endHeadcount": 33,
-      "averageHeadcount": 31.5,
-      "turnoverRate": 0
+      "dismissals": 3,
+      "startHeadcount": 27,
+      "endHeadcount": 27,
+      "averageHeadcount": 27,
+      "turnoverRate": 0.1111111111111111
     },
     {
       "month": "2025-06",
       "label": "jun/2025",
       "lot": "LOTE 12",
       "admissions": 7,
-      "dismissals": 0,
-      "startHeadcount": 50,
-      "endHeadcount": 57,
-      "averageHeadcount": 53.5,
-      "turnoverRate": 0
+      "dismissals": 4,
+      "startHeadcount": 46,
+      "endHeadcount": 49,
+      "averageHeadcount": 47.5,
+      "turnoverRate": 0.08421052631578947
     },
     {
       "month": "2025-06",
@@ -1168,9 +1168,9 @@ window.DASHBOARD_DATA = {
       "lot": "LOTE 13",
       "admissions": 30,
       "dismissals": 0,
-      "startHeadcount": 73,
-      "endHeadcount": 103,
-      "averageHeadcount": 88,
+      "startHeadcount": 66,
+      "endHeadcount": 96,
+      "averageHeadcount": 81,
       "turnoverRate": 0
     },
     {
@@ -1178,11 +1178,11 @@ window.DASHBOARD_DATA = {
       "label": "jun/2025",
       "lot": "LOTE 20",
       "admissions": 24,
-      "dismissals": 0,
-      "startHeadcount": 61,
-      "endHeadcount": 85,
-      "averageHeadcount": 73,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 56,
+      "endHeadcount": 79,
+      "averageHeadcount": 67.5,
+      "turnoverRate": 0.014814814814814815
     },
     {
       "month": "2025-06",
@@ -1190,9 +1190,9 @@ window.DASHBOARD_DATA = {
       "lot": "LOTE 2B",
       "admissions": 16,
       "dismissals": 0,
-      "startHeadcount": 33,
-      "endHeadcount": 49,
-      "averageHeadcount": 41,
+      "startHeadcount": 30,
+      "endHeadcount": 46,
+      "averageHeadcount": 38,
       "turnoverRate": 0
     },
     {
@@ -1200,66 +1200,66 @@ window.DASHBOARD_DATA = {
       "label": "jul/2025",
       "lot": "ADM 008",
       "admissions": 2,
-      "dismissals": 0,
+      "dismissals": 2,
       "startHeadcount": 20,
-      "endHeadcount": 22,
-      "averageHeadcount": 21,
-      "turnoverRate": 0
+      "endHeadcount": 20,
+      "averageHeadcount": 20,
+      "turnoverRate": 0.1
     },
     {
       "month": "2025-07",
       "label": "jul/2025",
       "lot": "LOTE 11",
       "admissions": 7,
-      "dismissals": 0,
-      "startHeadcount": 33,
-      "endHeadcount": 40,
-      "averageHeadcount": 36.5,
-      "turnoverRate": 0
+      "dismissals": 5,
+      "startHeadcount": 27,
+      "endHeadcount": 29,
+      "averageHeadcount": 28,
+      "turnoverRate": 0.17857142857142858
     },
     {
       "month": "2025-07",
       "label": "jul/2025",
       "lot": "LOTE 12",
       "admissions": 14,
-      "dismissals": 0,
-      "startHeadcount": 57,
-      "endHeadcount": 71,
-      "averageHeadcount": 64,
-      "turnoverRate": 0
+      "dismissals": 9,
+      "startHeadcount": 49,
+      "endHeadcount": 54,
+      "averageHeadcount": 51.5,
+      "turnoverRate": 0.17475728155339806
     },
     {
       "month": "2025-07",
       "label": "jul/2025",
       "lot": "LOTE 13",
       "admissions": 6,
-      "dismissals": 0,
-      "startHeadcount": 103,
-      "endHeadcount": 109,
-      "averageHeadcount": 106,
-      "turnoverRate": 0
+      "dismissals": 8,
+      "startHeadcount": 96,
+      "endHeadcount": 94,
+      "averageHeadcount": 95,
+      "turnoverRate": 0.08421052631578947
     },
     {
       "month": "2025-07",
       "label": "jul/2025",
       "lot": "LOTE 20",
       "admissions": 23,
-      "dismissals": 0,
-      "startHeadcount": 85,
-      "endHeadcount": 108,
-      "averageHeadcount": 96.5,
-      "turnoverRate": 0
+      "dismissals": 6,
+      "startHeadcount": 79,
+      "endHeadcount": 96,
+      "averageHeadcount": 87.5,
+      "turnoverRate": 0.06857142857142857
     },
     {
       "month": "2025-07",
       "label": "jul/2025",
       "lot": "LOTE 2B",
       "admissions": 13,
-      "dismissals": 0,
-      "startHeadcount": 49,
-      "endHeadcount": 62,
-      "averageHeadcount": 55.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 46,
+      "endHeadcount": 58,
+      "averageHeadcount": 52,
+      "turnoverRate": 0.019230769230769232
     },
     {
       "month": "2025-08",
@@ -1267,9 +1267,9 @@ window.DASHBOARD_DATA = {
       "lot": "ADM 008",
       "admissions": 6,
       "dismissals": 0,
-      "startHeadcount": 22,
-      "endHeadcount": 28,
-      "averageHeadcount": 25,
+      "startHeadcount": 20,
+      "endHeadcount": 26,
+      "averageHeadcount": 23,
       "turnoverRate": 0
     },
     {
@@ -1277,55 +1277,55 @@ window.DASHBOARD_DATA = {
       "label": "ago/2025",
       "lot": "LOTE 11",
       "admissions": 7,
-      "dismissals": 0,
-      "startHeadcount": 40,
-      "endHeadcount": 47,
-      "averageHeadcount": 43.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 29,
+      "endHeadcount": 35,
+      "averageHeadcount": 32,
+      "turnoverRate": 0.03125
     },
     {
       "month": "2025-08",
       "label": "ago/2025",
       "lot": "LOTE 12",
       "admissions": 8,
-      "dismissals": 0,
-      "startHeadcount": 71,
-      "endHeadcount": 79,
-      "averageHeadcount": 75,
-      "turnoverRate": 0
+      "dismissals": 3,
+      "startHeadcount": 54,
+      "endHeadcount": 59,
+      "averageHeadcount": 56.5,
+      "turnoverRate": 0.05309734513274336
     },
     {
       "month": "2025-08",
       "label": "ago/2025",
       "lot": "LOTE 13",
       "admissions": 13,
-      "dismissals": 0,
-      "startHeadcount": 109,
-      "endHeadcount": 122,
-      "averageHeadcount": 115.5,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 94,
+      "endHeadcount": 105,
+      "averageHeadcount": 99.5,
+      "turnoverRate": 0.020100502512562814
     },
     {
       "month": "2025-08",
       "label": "ago/2025",
       "lot": "LOTE 20",
       "admissions": 22,
-      "dismissals": 0,
-      "startHeadcount": 108,
-      "endHeadcount": 130,
-      "averageHeadcount": 119,
-      "turnoverRate": 0
+      "dismissals": 8,
+      "startHeadcount": 96,
+      "endHeadcount": 110,
+      "averageHeadcount": 103,
+      "turnoverRate": 0.07766990291262135
     },
     {
       "month": "2025-08",
       "label": "ago/2025",
       "lot": "LOTE 2B",
       "admissions": 28,
-      "dismissals": 0,
-      "startHeadcount": 62,
-      "endHeadcount": 90,
-      "averageHeadcount": 76,
-      "turnoverRate": 0
+      "dismissals": 5,
+      "startHeadcount": 58,
+      "endHeadcount": 81,
+      "averageHeadcount": 69.5,
+      "turnoverRate": 0.07194244604316546
     },
     {
       "month": "2025-09",
@@ -1333,9 +1333,9 @@ window.DASHBOARD_DATA = {
       "lot": "ADM 008",
       "admissions": 2,
       "dismissals": 0,
-      "startHeadcount": 28,
-      "endHeadcount": 30,
-      "averageHeadcount": 29,
+      "startHeadcount": 26,
+      "endHeadcount": 28,
+      "averageHeadcount": 27,
       "turnoverRate": 0
     },
     {
@@ -1344,9 +1344,9 @@ window.DASHBOARD_DATA = {
       "lot": "LOTE 11",
       "admissions": 15,
       "dismissals": 0,
-      "startHeadcount": 47,
-      "endHeadcount": 62,
-      "averageHeadcount": 54.5,
+      "startHeadcount": 35,
+      "endHeadcount": 50,
+      "averageHeadcount": 42.5,
       "turnoverRate": 0
     },
     {
@@ -1354,176 +1354,176 @@ window.DASHBOARD_DATA = {
       "label": "set/2025",
       "lot": "LOTE 12",
       "admissions": 21,
-      "dismissals": 0,
-      "startHeadcount": 79,
-      "endHeadcount": 100,
-      "averageHeadcount": 89.5,
-      "turnoverRate": 0
+      "dismissals": 3,
+      "startHeadcount": 59,
+      "endHeadcount": 77,
+      "averageHeadcount": 68,
+      "turnoverRate": 0.04411764705882353
     },
     {
       "month": "2025-09",
       "label": "set/2025",
       "lot": "LOTE 13",
       "admissions": 15,
-      "dismissals": 0,
-      "startHeadcount": 122,
-      "endHeadcount": 137,
-      "averageHeadcount": 129.5,
-      "turnoverRate": 0
+      "dismissals": 11,
+      "startHeadcount": 105,
+      "endHeadcount": 109,
+      "averageHeadcount": 107,
+      "turnoverRate": 0.102803738317757
     },
     {
       "month": "2025-09",
       "label": "set/2025",
       "lot": "LOTE 20",
       "admissions": 17,
-      "dismissals": 0,
-      "startHeadcount": 130,
-      "endHeadcount": 147,
-      "averageHeadcount": 138.5,
-      "turnoverRate": 0
+      "dismissals": 4,
+      "startHeadcount": 110,
+      "endHeadcount": 123,
+      "averageHeadcount": 116.5,
+      "turnoverRate": 0.034334763948497854
     },
     {
       "month": "2025-09",
       "label": "set/2025",
       "lot": "LOTE 2B",
       "admissions": 15,
-      "dismissals": 0,
-      "startHeadcount": 90,
-      "endHeadcount": 105,
-      "averageHeadcount": 97.5,
-      "turnoverRate": 0
+      "dismissals": 9,
+      "startHeadcount": 81,
+      "endHeadcount": 87,
+      "averageHeadcount": 84,
+      "turnoverRate": 0.10714285714285714
     },
     {
       "month": "2025-10",
       "label": "out/2025",
       "lot": "ADM 008",
       "admissions": 5,
-      "dismissals": 0,
-      "startHeadcount": 30,
-      "endHeadcount": 35,
-      "averageHeadcount": 32.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 28,
+      "endHeadcount": 32,
+      "averageHeadcount": 30,
+      "turnoverRate": 0.03333333333333333
     },
     {
       "month": "2025-10",
       "label": "out/2025",
       "lot": "LOTE 11",
       "admissions": 3,
-      "dismissals": 0,
-      "startHeadcount": 62,
-      "endHeadcount": 65,
-      "averageHeadcount": 63.5,
-      "turnoverRate": 0
+      "dismissals": 3,
+      "startHeadcount": 50,
+      "endHeadcount": 50,
+      "averageHeadcount": 50,
+      "turnoverRate": 0.06
     },
     {
       "month": "2025-10",
       "label": "out/2025",
       "lot": "LOTE 12",
       "admissions": 7,
-      "dismissals": 0,
-      "startHeadcount": 100,
-      "endHeadcount": 107,
-      "averageHeadcount": 103.5,
-      "turnoverRate": 0
+      "dismissals": 13,
+      "startHeadcount": 77,
+      "endHeadcount": 71,
+      "averageHeadcount": 74,
+      "turnoverRate": 0.17567567567567569
     },
     {
       "month": "2025-10",
       "label": "out/2025",
       "lot": "LOTE 13",
       "admissions": 10,
-      "dismissals": 0,
-      "startHeadcount": 137,
-      "endHeadcount": 147,
-      "averageHeadcount": 142,
-      "turnoverRate": 0
+      "dismissals": 14,
+      "startHeadcount": 109,
+      "endHeadcount": 105,
+      "averageHeadcount": 107,
+      "turnoverRate": 0.1308411214953271
     },
     {
       "month": "2025-10",
       "label": "out/2025",
       "lot": "LOTE 20",
       "admissions": 14,
-      "dismissals": 0,
-      "startHeadcount": 147,
-      "endHeadcount": 161,
-      "averageHeadcount": 154,
-      "turnoverRate": 0
+      "dismissals": 8,
+      "startHeadcount": 123,
+      "endHeadcount": 129,
+      "averageHeadcount": 126,
+      "turnoverRate": 0.06349206349206349
     },
     {
       "month": "2025-10",
       "label": "out/2025",
       "lot": "LOTE 2B",
       "admissions": 16,
-      "dismissals": 0,
-      "startHeadcount": 105,
-      "endHeadcount": 121,
-      "averageHeadcount": 113,
-      "turnoverRate": 0
+      "dismissals": 6,
+      "startHeadcount": 87,
+      "endHeadcount": 97,
+      "averageHeadcount": 92,
+      "turnoverRate": 0.06521739130434782
     },
     {
       "month": "2025-11",
       "label": "nov/2025",
       "lot": "ADM 008",
       "admissions": 1,
-      "dismissals": 0,
-      "startHeadcount": 35,
-      "endHeadcount": 36,
-      "averageHeadcount": 35.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 32,
+      "endHeadcount": 32,
+      "averageHeadcount": 32,
+      "turnoverRate": 0.03125
     },
     {
       "month": "2025-11",
       "label": "nov/2025",
       "lot": "LOTE 11",
       "admissions": 3,
-      "dismissals": 0,
-      "startHeadcount": 65,
-      "endHeadcount": 68,
-      "averageHeadcount": 66.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 50,
+      "endHeadcount": 52,
+      "averageHeadcount": 51,
+      "turnoverRate": 0.0196078431372549
     },
     {
       "month": "2025-11",
       "label": "nov/2025",
       "lot": "LOTE 12",
       "admissions": 4,
-      "dismissals": 0,
-      "startHeadcount": 107,
-      "endHeadcount": 111,
-      "averageHeadcount": 109,
-      "turnoverRate": 0
+      "dismissals": 7,
+      "startHeadcount": 71,
+      "endHeadcount": 68,
+      "averageHeadcount": 69.5,
+      "turnoverRate": 0.10071942446043165
     },
     {
       "month": "2025-11",
       "label": "nov/2025",
       "lot": "LOTE 13",
       "admissions": 5,
-      "dismissals": 0,
-      "startHeadcount": 147,
-      "endHeadcount": 152,
-      "averageHeadcount": 149.5,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 105,
+      "endHeadcount": 108,
+      "averageHeadcount": 106.5,
+      "turnoverRate": 0.018779342723004695
     },
     {
       "month": "2025-11",
       "label": "nov/2025",
       "lot": "LOTE 20",
       "admissions": 1,
-      "dismissals": 0,
-      "startHeadcount": 161,
-      "endHeadcount": 162,
-      "averageHeadcount": 161.5,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 129,
+      "endHeadcount": 128,
+      "averageHeadcount": 128.5,
+      "turnoverRate": 0.01556420233463035
     },
     {
       "month": "2025-11",
       "label": "nov/2025",
       "lot": "LOTE 2B",
       "admissions": 4,
-      "dismissals": 0,
-      "startHeadcount": 121,
-      "endHeadcount": 125,
-      "averageHeadcount": 123,
-      "turnoverRate": 0
+      "dismissals": 15,
+      "startHeadcount": 97,
+      "endHeadcount": 86,
+      "averageHeadcount": 91.5,
+      "turnoverRate": 0.16393442622950818
     },
     {
       "month": "2025-12",
@@ -1531,9 +1531,9 @@ window.DASHBOARD_DATA = {
       "lot": "ADM 008",
       "admissions": 2,
       "dismissals": 0,
-      "startHeadcount": 36,
-      "endHeadcount": 38,
-      "averageHeadcount": 37,
+      "startHeadcount": 32,
+      "endHeadcount": 34,
+      "averageHeadcount": 33,
       "turnoverRate": 0
     },
     {
@@ -1541,385 +1541,385 @@ window.DASHBOARD_DATA = {
       "label": "dez/2025",
       "lot": "LOTE 11",
       "admissions": 2,
-      "dismissals": 0,
-      "startHeadcount": 68,
-      "endHeadcount": 70,
-      "averageHeadcount": 69,
-      "turnoverRate": 0
+      "dismissals": 3,
+      "startHeadcount": 52,
+      "endHeadcount": 51,
+      "averageHeadcount": 51.5,
+      "turnoverRate": 0.05825242718446602
     },
     {
       "month": "2025-12",
       "label": "dez/2025",
       "lot": "LOTE 12",
       "admissions": 1,
-      "dismissals": 0,
-      "startHeadcount": 111,
-      "endHeadcount": 112,
-      "averageHeadcount": 111.5,
-      "turnoverRate": 0
+      "dismissals": 5,
+      "startHeadcount": 68,
+      "endHeadcount": 64,
+      "averageHeadcount": 66,
+      "turnoverRate": 0.07575757575757576
     },
     {
       "month": "2025-12",
       "label": "dez/2025",
       "lot": "LOTE 13",
       "admissions": 2,
-      "dismissals": 0,
-      "startHeadcount": 152,
-      "endHeadcount": 154,
-      "averageHeadcount": 153,
-      "turnoverRate": 0
+      "dismissals": 12,
+      "startHeadcount": 108,
+      "endHeadcount": 98,
+      "averageHeadcount": 103,
+      "turnoverRate": 0.11650485436893204
     },
     {
       "month": "2025-12",
       "label": "dez/2025",
       "lot": "LOTE 20",
       "admissions": 0,
-      "dismissals": 0,
-      "startHeadcount": 162,
-      "endHeadcount": 162,
-      "averageHeadcount": 162,
-      "turnoverRate": 0
+      "dismissals": 15,
+      "startHeadcount": 128,
+      "endHeadcount": 113,
+      "averageHeadcount": 120.5,
+      "turnoverRate": 0.12448132780082988
     },
     {
       "month": "2025-12",
       "label": "dez/2025",
       "lot": "LOTE 2B",
       "admissions": 4,
-      "dismissals": 0,
-      "startHeadcount": 125,
-      "endHeadcount": 129,
-      "averageHeadcount": 127,
-      "turnoverRate": 0
+      "dismissals": 10,
+      "startHeadcount": 86,
+      "endHeadcount": 80,
+      "averageHeadcount": 83,
+      "turnoverRate": 0.12048192771084337
     },
     {
       "month": "2026-01",
       "label": "jan/2026",
       "lot": "ADM 008",
       "admissions": 2,
-      "dismissals": 0,
-      "startHeadcount": 38,
-      "endHeadcount": 40,
-      "averageHeadcount": 39,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 34,
+      "endHeadcount": 35,
+      "averageHeadcount": 34.5,
+      "turnoverRate": 0.028985507246376812
     },
     {
       "month": "2026-01",
       "label": "jan/2026",
       "lot": "LOTE 11",
       "admissions": 8,
-      "dismissals": 0,
-      "startHeadcount": 70,
-      "endHeadcount": 78,
-      "averageHeadcount": 74,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 51,
+      "endHeadcount": 57,
+      "averageHeadcount": 54,
+      "turnoverRate": 0.037037037037037035
     },
     {
       "month": "2026-01",
       "label": "jan/2026",
       "lot": "LOTE 12",
       "admissions": 19,
-      "dismissals": 0,
-      "startHeadcount": 112,
-      "endHeadcount": 131,
-      "averageHeadcount": 121.5,
-      "turnoverRate": 0
+      "dismissals": 7,
+      "startHeadcount": 64,
+      "endHeadcount": 76,
+      "averageHeadcount": 70,
+      "turnoverRate": 0.1
     },
     {
       "month": "2026-01",
       "label": "jan/2026",
       "lot": "LOTE 13",
       "admissions": 14,
-      "dismissals": 0,
-      "startHeadcount": 154,
-      "endHeadcount": 168,
-      "averageHeadcount": 161,
-      "turnoverRate": 0
+      "dismissals": 5,
+      "startHeadcount": 98,
+      "endHeadcount": 107,
+      "averageHeadcount": 102.5,
+      "turnoverRate": 0.04878048780487805
     },
     {
       "month": "2026-01",
       "label": "jan/2026",
       "lot": "LOTE 20",
       "admissions": 13,
-      "dismissals": 0,
-      "startHeadcount": 162,
-      "endHeadcount": 175,
-      "averageHeadcount": 168.5,
-      "turnoverRate": 0
+      "dismissals": 10,
+      "startHeadcount": 113,
+      "endHeadcount": 116,
+      "averageHeadcount": 114.5,
+      "turnoverRate": 0.08733624454148471
     },
     {
       "month": "2026-01",
       "label": "jan/2026",
       "lot": "LOTE 2B",
       "admissions": 7,
-      "dismissals": 0,
-      "startHeadcount": 129,
-      "endHeadcount": 136,
-      "averageHeadcount": 132.5,
-      "turnoverRate": 0
+      "dismissals": 6,
+      "startHeadcount": 80,
+      "endHeadcount": 81,
+      "averageHeadcount": 80.5,
+      "turnoverRate": 0.07453416149068323
     },
     {
       "month": "2026-02",
       "label": "fev/2026",
       "lot": "ADM 008",
       "admissions": 3,
-      "dismissals": 0,
-      "startHeadcount": 40,
-      "endHeadcount": 43,
-      "averageHeadcount": 41.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 35,
+      "endHeadcount": 37,
+      "averageHeadcount": 36,
+      "turnoverRate": 0.027777777777777776
     },
     {
       "month": "2026-02",
       "label": "fev/2026",
       "lot": "LOTE 11",
       "admissions": 15,
-      "dismissals": 0,
-      "startHeadcount": 78,
-      "endHeadcount": 93,
-      "averageHeadcount": 85.5,
-      "turnoverRate": 0
+      "dismissals": 6,
+      "startHeadcount": 57,
+      "endHeadcount": 66,
+      "averageHeadcount": 61.5,
+      "turnoverRate": 0.0975609756097561
     },
     {
       "month": "2026-02",
       "label": "fev/2026",
       "lot": "LOTE 12",
       "admissions": 25,
-      "dismissals": 0,
-      "startHeadcount": 131,
-      "endHeadcount": 156,
-      "averageHeadcount": 143.5,
-      "turnoverRate": 0
+      "dismissals": 3,
+      "startHeadcount": 76,
+      "endHeadcount": 98,
+      "averageHeadcount": 87,
+      "turnoverRate": 0.034482758620689655
     },
     {
       "month": "2026-02",
       "label": "fev/2026",
       "lot": "LOTE 13",
       "admissions": 24,
-      "dismissals": 0,
-      "startHeadcount": 168,
-      "endHeadcount": 192,
-      "averageHeadcount": 180,
-      "turnoverRate": 0
+      "dismissals": 7,
+      "startHeadcount": 107,
+      "endHeadcount": 124,
+      "averageHeadcount": 115.5,
+      "turnoverRate": 0.06060606060606061
     },
     {
       "month": "2026-02",
       "label": "fev/2026",
       "lot": "LOTE 20",
       "admissions": 11,
-      "dismissals": 0,
-      "startHeadcount": 175,
-      "endHeadcount": 186,
-      "averageHeadcount": 180.5,
-      "turnoverRate": 0
+      "dismissals": 6,
+      "startHeadcount": 116,
+      "endHeadcount": 121,
+      "averageHeadcount": 118.5,
+      "turnoverRate": 0.05063291139240506
     },
     {
       "month": "2026-02",
       "label": "fev/2026",
       "lot": "LOTE 2B",
       "admissions": 21,
-      "dismissals": 0,
-      "startHeadcount": 136,
-      "endHeadcount": 157,
-      "averageHeadcount": 146.5,
-      "turnoverRate": 0
+      "dismissals": 8,
+      "startHeadcount": 81,
+      "endHeadcount": 94,
+      "averageHeadcount": 87.5,
+      "turnoverRate": 0.09142857142857143
     },
     {
       "month": "2026-03",
       "label": "mar/2026",
       "lot": "ADM 008",
       "admissions": 0,
-      "dismissals": 0,
-      "startHeadcount": 43,
-      "endHeadcount": 43,
-      "averageHeadcount": 43,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 37,
+      "endHeadcount": 35,
+      "averageHeadcount": 36,
+      "turnoverRate": 0.05555555555555555
     },
     {
       "month": "2026-03",
       "label": "mar/2026",
       "lot": "LOTE 11",
       "admissions": 1,
-      "dismissals": 0,
-      "startHeadcount": 93,
-      "endHeadcount": 94,
-      "averageHeadcount": 93.5,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 66,
+      "endHeadcount": 65,
+      "averageHeadcount": 65.5,
+      "turnoverRate": 0.030534351145038167
     },
     {
       "month": "2026-03",
       "label": "mar/2026",
       "lot": "LOTE 12",
       "admissions": 12,
-      "dismissals": 0,
-      "startHeadcount": 156,
-      "endHeadcount": 168,
-      "averageHeadcount": 162,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 98,
+      "endHeadcount": 109,
+      "averageHeadcount": 103.5,
+      "turnoverRate": 0.00966183574879227
     },
     {
       "month": "2026-03",
       "label": "mar/2026",
       "lot": "LOTE 13",
       "admissions": 16,
-      "dismissals": 0,
-      "startHeadcount": 192,
-      "endHeadcount": 208,
-      "averageHeadcount": 200,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 124,
+      "endHeadcount": 138,
+      "averageHeadcount": 131,
+      "turnoverRate": 0.015267175572519083
     },
     {
       "month": "2026-03",
       "label": "mar/2026",
       "lot": "LOTE 20",
       "admissions": 20,
-      "dismissals": 0,
-      "startHeadcount": 186,
-      "endHeadcount": 206,
-      "averageHeadcount": 196,
-      "turnoverRate": 0
+      "dismissals": 6,
+      "startHeadcount": 121,
+      "endHeadcount": 135,
+      "averageHeadcount": 128,
+      "turnoverRate": 0.046875
     },
     {
       "month": "2026-03",
       "label": "mar/2026",
       "lot": "LOTE 2B",
       "admissions": 11,
-      "dismissals": 0,
-      "startHeadcount": 157,
-      "endHeadcount": 168,
-      "averageHeadcount": 162.5,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 94,
+      "endHeadcount": 103,
+      "averageHeadcount": 98.5,
+      "turnoverRate": 0.02030456852791878
     },
     {
       "month": "2026-04",
       "label": "abr/2026",
       "lot": "ADM 008",
       "admissions": 3,
-      "dismissals": 0,
-      "startHeadcount": 43,
-      "endHeadcount": 46,
-      "averageHeadcount": 44.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 35,
+      "endHeadcount": 37,
+      "averageHeadcount": 36,
+      "turnoverRate": 0.027777777777777776
     },
     {
       "month": "2026-04",
       "label": "abr/2026",
       "lot": "LOTE 11",
       "admissions": 1,
-      "dismissals": 0,
-      "startHeadcount": 94,
-      "endHeadcount": 95,
-      "averageHeadcount": 94.5,
-      "turnoverRate": 0
+      "dismissals": 2,
+      "startHeadcount": 65,
+      "endHeadcount": 64,
+      "averageHeadcount": 64.5,
+      "turnoverRate": 0.031007751937984496
     },
     {
       "month": "2026-04",
       "label": "abr/2026",
       "lot": "LOTE 12",
       "admissions": 2,
-      "dismissals": 0,
-      "startHeadcount": 168,
-      "endHeadcount": 170,
-      "averageHeadcount": 169,
-      "turnoverRate": 0
+      "dismissals": 10,
+      "startHeadcount": 109,
+      "endHeadcount": 101,
+      "averageHeadcount": 105,
+      "turnoverRate": 0.09523809523809523
     },
     {
       "month": "2026-04",
       "label": "abr/2026",
       "lot": "LOTE 13",
       "admissions": 7,
-      "dismissals": 0,
-      "startHeadcount": 208,
-      "endHeadcount": 215,
-      "averageHeadcount": 211.5,
-      "turnoverRate": 0
+      "dismissals": 4,
+      "startHeadcount": 138,
+      "endHeadcount": 141,
+      "averageHeadcount": 139.5,
+      "turnoverRate": 0.02867383512544803
     },
     {
       "month": "2026-04",
       "label": "abr/2026",
       "lot": "LOTE 20",
       "admissions": 13,
-      "dismissals": 0,
-      "startHeadcount": 206,
-      "endHeadcount": 219,
-      "averageHeadcount": 212.5,
-      "turnoverRate": 0
+      "dismissals": 18,
+      "startHeadcount": 135,
+      "endHeadcount": 130,
+      "averageHeadcount": 132.5,
+      "turnoverRate": 0.13584905660377358
     },
     {
       "month": "2026-04",
       "label": "abr/2026",
       "lot": "LOTE 2B",
       "admissions": 10,
-      "dismissals": 0,
-      "startHeadcount": 168,
-      "endHeadcount": 178,
-      "averageHeadcount": 173,
-      "turnoverRate": 0
+      "dismissals": 11,
+      "startHeadcount": 103,
+      "endHeadcount": 102,
+      "averageHeadcount": 102.5,
+      "turnoverRate": 0.1073170731707317
     },
     {
       "month": "2026-05",
       "label": "mai/2026",
       "lot": "ADM 008",
       "admissions": 3,
-      "dismissals": 0,
-      "startHeadcount": 46,
-      "endHeadcount": 49,
-      "averageHeadcount": 47.5,
-      "turnoverRate": 0
+      "dismissals": 1,
+      "startHeadcount": 37,
+      "endHeadcount": 39,
+      "averageHeadcount": 38,
+      "turnoverRate": 0.02631578947368421
     },
     {
       "month": "2026-05",
       "label": "mai/2026",
       "lot": "LOTE 11",
       "admissions": 2,
-      "dismissals": 0,
-      "startHeadcount": 95,
-      "endHeadcount": 97,
-      "averageHeadcount": 96,
-      "turnoverRate": 0
+      "dismissals": 14,
+      "startHeadcount": 64,
+      "endHeadcount": 52,
+      "averageHeadcount": 58,
+      "turnoverRate": 0.2413793103448276
     },
     {
       "month": "2026-05",
       "label": "mai/2026",
       "lot": "LOTE 12",
       "admissions": 14,
-      "dismissals": 0,
-      "startHeadcount": 170,
-      "endHeadcount": 184,
-      "averageHeadcount": 177,
-      "turnoverRate": 0
+      "dismissals": 12,
+      "startHeadcount": 101,
+      "endHeadcount": 103,
+      "averageHeadcount": 102,
+      "turnoverRate": 0.11764705882352941
     },
     {
       "month": "2026-05",
       "label": "mai/2026",
       "lot": "LOTE 13",
       "admissions": 3,
-      "dismissals": 0,
-      "startHeadcount": 215,
-      "endHeadcount": 218,
-      "averageHeadcount": 216.5,
-      "turnoverRate": 0
+      "dismissals": 16,
+      "startHeadcount": 141,
+      "endHeadcount": 128,
+      "averageHeadcount": 134.5,
+      "turnoverRate": 0.11895910780669144
     },
     {
       "month": "2026-05",
       "label": "mai/2026",
       "lot": "LOTE 20",
       "admissions": 24,
-      "dismissals": 0,
-      "startHeadcount": 219,
-      "endHeadcount": 243,
-      "averageHeadcount": 231,
-      "turnoverRate": 0
+      "dismissals": 10,
+      "startHeadcount": 130,
+      "endHeadcount": 144,
+      "averageHeadcount": 137,
+      "turnoverRate": 0.072992700729927
     },
     {
       "month": "2026-05",
       "label": "mai/2026",
       "lot": "LOTE 2B",
       "admissions": 16,
-      "dismissals": 0,
-      "startHeadcount": 178,
-      "endHeadcount": 194,
-      "averageHeadcount": 186,
-      "turnoverRate": 0
+      "dismissals": 19,
+      "startHeadcount": 102,
+      "endHeadcount": 99,
+      "averageHeadcount": 100.5,
+      "turnoverRate": 0.1890547263681592
     }
   ],
   "contractors": {

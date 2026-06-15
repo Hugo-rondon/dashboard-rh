@@ -52,11 +52,19 @@ function renderFinance() {
   $("turnoverMetric").textContent = percent(averageHeadcount ? dismissals / averageHeadcount : 0);
   const label = $("monthFilter").selectedOptions[0].textContent;
   $("tableCaption").textContent = label;
+  $("turnoverCaption").textContent = lot === "all" ? label : `${label} · ${lot}`;
   $("financeTable").innerHTML = data.lots.map(name => {
     const row = financeRows(month, name)[0] || {};
     const hidden = lot !== "all" && lot !== name;
     return `<tr${hidden ? ' style="opacity:.25"' : ""}><td>${name}</td><td>${money(row.salary)}</td><td>${money(row.overtime)}</td><td>${money(row.dsr)}</td><td><strong>${money(row.total)}</strong></td></tr>`;
   }).join("");
+  const turnoverRowsHtml = data.lots.map(name => {
+    const row = turnoverRows(month, name)[0] || {};
+    const hidden = lot !== "all" && lot !== name;
+    return `<tr${hidden ? ' style="opacity:.25"' : ""}><td>${name}</td><td>${number(row.startHeadcount)}</td><td>${number(row.endHeadcount)}</td><td>${number(row.dismissals)}</td><td>${number(row.averageHeadcount)}</td><td><strong>${percent(row.turnoverRate)}</strong></td></tr>`;
+  }).join("");
+  const totalRate = averageHeadcount ? dismissals / averageHeadcount : 0;
+  $("turnoverTable").innerHTML = `${turnoverRowsHtml}<tr><td><strong>Total</strong></td><td><strong>${number(sum(turnoverSelected, "startHeadcount"))}</strong></td><td><strong>${number(sum(turnoverSelected, "endHeadcount"))}</strong></td><td><strong>${number(dismissals)}</strong></td><td><strong>${number(averageHeadcount)}</strong></td><td><strong>${percent(totalRate)}</strong></td></tr>`;
   renderFinanceChart(lot);
 }
 
