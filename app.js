@@ -2,6 +2,7 @@ const data = window.DASHBOARD_DATA;
 const $ = id => document.getElementById(id);
 const money = value => new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 }).format(value || 0);
 const number = value => new Intl.NumberFormat("pt-BR").format(value || 0);
+const percent = value => new Intl.NumberFormat("pt-BR", { style: "percent", minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(value || 0);
 const sum = (rows, field) => rows.reduce((total, row) => total + Number(row[field] || 0), 0);
 const option = (value, label = value) => `<option value="${value}">${label}</option>`;
 
@@ -33,15 +34,22 @@ function renderWorkforce() {
 }
 
 function financeRows(month, lot = "all") { return data.finance.filter(row => row.month === month && (lot === "all" || row.lot === lot)); }
+function turnoverRows(month, lot = "all") { return data.turnover.filter(row => row.month === month && (lot === "all" || row.lot === lot)); }
 
 function renderFinance() {
   const month = $("monthFilter").value; const lot = $("financeLotFilter").value;
   const selected = financeRows(month, lot);
+  const turnoverSelected = turnoverRows(month, lot);
+  const averageHeadcount = sum(turnoverSelected, "averageHeadcount");
+  const dismissals = sum(turnoverSelected, "dismissals");
   $("salaryMetric").textContent = money(sum(selected, "salary"));
   $("overtimeMetric").textContent = money(sum(selected, "overtime"));
   $("dsrMetric").textContent = money(sum(selected, "dsr"));
   $("monthTotalMetric").textContent = money(sum(selected, "total"));
   $("accumulatedMetric").textContent = money(sum(data.finance.filter(row => row.month <= month && (lot === "all" || row.lot === lot)), "total"));
+  $("admissionMetric").textContent = number(sum(turnoverSelected, "admissions"));
+  $("dismissalMetric").textContent = number(dismissals);
+  $("turnoverMetric").textContent = percent(averageHeadcount ? dismissals / averageHeadcount : 0);
   const label = $("monthFilter").selectedOptions[0].textContent;
   $("tableCaption").textContent = label;
   $("financeTable").innerHTML = data.lots.map(name => {
