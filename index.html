@@ -5,9 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#08243d">
   <title>Dashboard RH | Consórcio</title>
-  <link rel="stylesheet" href="styles.css?v=20260615-separado1">
+  <link rel="stylesheet" href="styles.css?v=20260615-login1">
 </head>
 <body>
+  <section id="loginScreen" class="login-screen">
+    <form id="loginForm" class="login-card">
+      <img class="login-logo" src="logo.png" alt="Logo do consórcio">
+      <p class="eyebrow dark">Acesso restrito</p>
+      <h2>Dashboard RH</h2>
+      <p>Digite a senha para visualizar o painel.</p>
+      <label class="login-label">Senha
+        <input id="passwordInput" type="password" autocomplete="current-password" placeholder="Digite a senha">
+      </label>
+      <button type="submit">Entrar</button>
+      <span id="loginError" class="login-error" role="alert"></span>
+    </form>
+  </section>
+
+  <div id="dashboardApp" class="app-shell" hidden>
   <header class="hero">
     <div class="shell hero-content">
       <img class="brand-logo" src="logo.png" alt="Logo do consórcio">
@@ -16,7 +31,7 @@
         <h1>Dashboard RH</h1>
         <p class="hero-subtitle">Quadro de pessoal, custos, turnover e mão de obra terceirizada</p>
       </div>
-      <div class="update-box"><span>Base atualizada</span><strong id="updatedAt">--</strong></div>
+      <div class="update-box"><span>Base atualizada</span><strong id="updatedAt">--</strong><button id="logoutButton" class="logout-button" type="button">Sair</button></div>
     </div>
   </header>
 
@@ -107,7 +122,8 @@
   </main>
 
   <footer><div class="shell">Dashboard com informações consolidadas. Nenhum nome ou matrícula é publicado.</div></footer>
-  <script src="data.js?v=20260615-separado1"></script>
-  <script src="app.js?v=20260615-separado1"></script>
+  </div>
+  <script src="data.js?v=20260615-login1"></script>
+  <script src="app.js?v=20260615-login1"></script>
 </body>
 </html>

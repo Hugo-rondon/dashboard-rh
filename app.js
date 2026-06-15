@@ -6,8 +6,11 @@ const percent = value => new Intl.NumberFormat("pt-BR", { style: "percent", mini
 const sum = (rows, field) => rows.reduce((total, row) => total + Number(row[field] || 0), 0);
 const option = (value, label = value) => `<option value="${value}">${label}</option>`;
 const monthOptions = () => [...new Map(data.finance.map(row => [row.month, row.label])).entries()];
+const dashboardPassword = "Rh2026@Consorcio";
+const authKey = "dashboard-rh-auth";
 
 function init() {
+  setupLogin();
   $("updatedAt").textContent = new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "short" }).format(new Date(data.generatedAt));
   const months = monthOptions();
   const lotOptions = option("all", "Todos") + data.lots.map(lot => option(lot)).join("");
@@ -35,6 +38,44 @@ function init() {
   renderFinance();
   renderTurnover();
   renderThirdParties();
+}
+
+function setupLogin() {
+  const loginScreen = $("loginScreen");
+  const dashboardApp = $("dashboardApp");
+  const form = $("loginForm");
+  const input = $("passwordInput");
+  const error = $("loginError");
+  const showDashboard = () => {
+    loginScreen.hidden = true;
+    dashboardApp.hidden = false;
+  };
+  const showLogin = () => {
+    dashboardApp.hidden = true;
+    loginScreen.hidden = false;
+    input.focus();
+  };
+
+  if (sessionStorage.getItem(authKey) === "ok") showDashboard();
+  else showLogin();
+
+  form.addEventListener("submit", event => {
+    event.preventDefault();
+    if (input.value === dashboardPassword) {
+      sessionStorage.setItem(authKey, "ok");
+      error.textContent = "";
+      input.value = "";
+      showDashboard();
+      return;
+    }
+    error.textContent = "Senha incorreta. Tente novamente.";
+    input.select();
+  });
+
+  $("logoutButton").addEventListener("click", () => {
+    sessionStorage.removeItem(authKey);
+    showLogin();
+  });
 }
 
 function renderWorkforce() {
